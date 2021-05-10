@@ -5,8 +5,8 @@ def main() -> None:
     terfogat = a*a*a
     felszin = 6*a*a
 
-    print("A kocka térfogata (V):", terfogat)
-    print("A kocka felszíne (A):", felszin)
+    print("A kocka térfogata (V):", terfogat ("m3"))
+    print("A kocka felszíne (A):", felszin ("m2"))
 
 
 if __name__ == "__main__":
